@@ -23,7 +23,7 @@ const App = () => {
     } else {
       setTempClass('normal')
     }
-  })
+  }, [count])
 
   return (
     <div id="main">
